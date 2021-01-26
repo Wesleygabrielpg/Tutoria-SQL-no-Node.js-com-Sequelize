@@ -1,0 +1,19 @@
+{
+  "name": "Tutoria-SQL-no-Node.js-com-Sequelize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Wesleygabrielpg/Tutoria-SQL-no-Node.js-com-Sequelize.git",
+  "author": "Wesleygabrielpg <wesleygabrielpg2@gmail.com>",
+  "license": "MIT",
+  "scripts":
+  {
+    "dev": "nodemon src/server.js"
+
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.4.0",
+    "sequelize-cli": "^6.2.0"
+  }
+}
