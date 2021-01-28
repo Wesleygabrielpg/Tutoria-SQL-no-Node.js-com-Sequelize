@@ -9,12 +9,9 @@ class User extends Model
         super.init({
             name: DataTypes.STRING,
             email: DataTypes.STRING,
-        },
-
-        {
+        },{
             sequelize //ou sequelize: connection
             //Conexão com o banco de dados
-            // 
         }
             
         )
