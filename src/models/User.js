@@ -16,6 +16,12 @@ class User extends Model
             
         )
     }
+
+    static associate(models)
+    {
+        this.hasMany(models.Address, { foreignKey: 'user_id', as: 'addresses' });
+        //No caso do 'hasMany', a foreign key é a coluna q está armazenada no Address
+    }
 }
 
 module.exports = User;

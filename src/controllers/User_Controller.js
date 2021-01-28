@@ -17,4 +17,7 @@ module.exports =
 
         return res.json(user); //Retornar em formato json
     }
-}
+
+    
+
+};
