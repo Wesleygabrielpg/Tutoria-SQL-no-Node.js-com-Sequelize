@@ -1,4 +1,4 @@
-// const consign = require('consign);
+// const consign = require('consign); // Ele agiliza a conexão
 const Sequelize = require('sequelize');
 const dbConfig = require('../config/database');
 
